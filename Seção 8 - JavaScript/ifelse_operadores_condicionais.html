@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+	<script>
+
+		var nota1 = prompt("Digite a primeira nota: ")
+		var nota2 = prompt("Digite a segunda nota: ")
+		var nota3 = prompt("Digite a terceira nota: ")
+
+		nota1 = parseInt(nota1)
+		nota2 = parseInt(nota2)
+		nota3 = parseInt(nota3)
+
+		var media = (nota1+nota2+nota3)/3
+
+		var falta = prompt("Digite a quantidade de faltas: ")
+		falta = parseInt(falta)
+
+		if(media >= 6 && falta <= 20){
+			document.write('Aprovado')
+		}
+		else if(media < 6 && falta > 20){
+			document.write('Reprovado por nota e falta')
+		}
+		else if(falta > 20){
+			document.write('Reprovado por falta')	
+		}
+		else{
+			document.write('Reprovado por nota')
+		}
+
+		console.log(media)
+
+		var resultado = media >= 6 && falta <= 20 ? 'Aprovado':'Reprovado';
+		document.write(resultado)
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

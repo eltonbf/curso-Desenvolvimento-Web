@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript</title>
+        <style>
+        .entrada{
+            background: yellow;
+        }
+        .abaixoDe3{
+            background: red;
+        }
+        .acimaDe3{
+            background: green;
+        }
+
+        </style>
+        
+        <script>
+           function alterarFundo(){
+             var fundo = document.getElementById('entrada').value.length
+
+            if (fundo == 0)
+                document.getElementById('entrada')
+                .className = 'entrada'
+
+            else if (fundo <= 3)
+                document.getElementById('entrada')
+                .className = 'abaixoDe3'
+            else
+            document.getElementById('entrada')
+                .className = 'acimaDe3'
+           }
+        
+        </script>
+        
+    </head>
+    <body>
+    
+        <input 
+        type="text"
+        placeholder="Digite qualquer caracter"
+        onkeyup="alterarFundo()"
+        id="entrada"
+        class="entrada">
+        
+        
+    </body>
+</html>

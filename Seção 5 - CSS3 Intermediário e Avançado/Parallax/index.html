@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parallax</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+		body, html{
+			margin: 0;
+			font: 16px "lato", sans-serif;
+			color: #777;
+			height: 100%;
+		}
+
+		.conteudo{
+			color: #777;
+			background-color: white;
+			text-align: justify;
+			padding: 50px 80px;
+		}
+
+		h3{
+			text-transform: uppercase;
+			color: #111;
+			text-align: center;
+		}
+
+		p{
+			margin-bottom: 20px;
+		}
+
+		.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6{
+			position: relative;
+			height: 100%;
+			opacity: 0.7;/*opacidade da imagem*/
+			background-repeat: no-repeat;
+			background-size: cover;/*deixa a imagem na tela inteira*/
+			background-position: center;/*mantem a imagen centralizada*/
+			background-attachment: fixed; /*mantem a imagen fixa*/
+		}
+
+		.caixa1{
+			background-image: url(imagens/imagem1.jpg);
+		}
+
+		.caixa2{
+			background-image: url(imagens/imagem2.jpg);
+		}
+
+		.caixa3{
+			background-image: url(imagens/imagem3.jpg);
+		}
+
+		.caixa4{
+			background-image: url(imagens/imagem4.jpg);
+		}
+
+		.caixa5{
+			background-image: url(imagens/imagem5.jpg);
+		}
+
+		.caixa6{
+			background-image: url(imagens/imagem6.jpg);
+		}
+
+		.conteudo-titulo{
+			position: absolute;
+			left: 0;
+			top: 45%;
+			width: 100%;
+			text-align: center;
+		}
+
+		.conteudo-titulo span.titulo{
+			color: #fff;
+			background-color: #111;
+			padding: 18px;
+			font-size: 25px;
+			letter-spacing: 5px;/* espaçamento entre os textos*/
+			text-transform: uppercase;/* textos em maiusculo*/
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<div class="caixa1">
+		<div class="conteudo-titulo">
+			<span class="titulo">PASSEIO DE BALÕES</span>
+		</div>
+	</div>
+
+	<div class="conteudo">
+		<h3>Parallax</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo urna, maximus id rhoncus vel, pulvinar nec nunc. Morbi vitae risus at nisi pulvinar congue id non turpis. Ut auctor odio ac lorem varius, non laoreet arcu vehicula. Suspendisse vestibulum tincidunt tortor at ullamcorper. Vestibulum eu auctor risus. Nulla ornare nulla tellus, ac rhoncus quam aliquet eget. Vivamus et ex lobortis, tincidunt libero quis, molestie neque. Nulla et ipsum eu nulla pretium suscipit accumsan eu ex. Maecenas sit amet felis at nisl pharetra tincidunt sed ut leo. Duis porta purus vel venenatis dictum. Duis lorem nulla, ullamcorper quis mauris a, euismod dictum augue. Cras venenatis, risus in consectetur cursus, diam elit maximus sem, non feugiat velit ante a felis. Sed gravida congue nisi ut euismod.</p>
+		<p>In commodo id orci vitae accumsan. Suspendisse consequat eros non leo placerat sagittis. Vestibulum lacinia bibendum ornare. Maecenas porta pellentesque sagittis. Phasellus cursus id libero sit amet convallis. Cras malesuada urna ex, quis faucibus dui ultricies vitae. Morbi sed massa ac lectus ultricies condimentum. Ut vel pulvinar ex. Suspendisse vel vestibulum tortor. Aliquam erat volutpat. Nullam ultricies vulputate magna, ac vehicula mauris facilisis sit amet. Quisque viverra eget metus non blandit.</p>
+	</div>
+
+	<div class="caixa2">
+		<div class="conteudo-titulo">
+			<span class="titulo">Pegando a estrada</span>
+		</div>
+	</div>
+
+	<div class="conteudo">
+		<h3>Parallax</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo urna, maximus id rhoncus vel, pulvinar nec nunc. Morbi vitae risus at nisi pulvinar congue id non turpis. Ut auctor odio ac lorem varius, non laoreet arcu vehicula. Suspendisse vestibulum tincidunt tortor at ullamcorper. Vestibulum eu auctor risus. Nulla ornare nulla tellus, ac rhoncus quam aliquet eget. Vivamus et ex lobortis, tincidunt libero quis, molestie neque. Nulla et ipsum eu nulla pretium suscipit accumsan eu ex. Maecenas sit amet felis at nisl pharetra tincidunt sed ut leo. Duis porta purus vel venenatis dictum. Duis lorem nulla, ullamcorper quis mauris a, euismod dictum augue. Cras venenatis, risus in consectetur cursus, diam elit maximus sem, non feugiat velit ante a felis. Sed gravida congue nisi ut euismod.</p>
+		<p>In commodo id orci vitae accumsan. Suspendisse consequat eros non leo placerat sagittis. Vestibulum lacinia bibendum ornare. Maecenas porta pellentesque sagittis. Phasellus cursus id libero sit amet convallis. Cras malesuada urna ex, quis faucibus dui ultricies vitae. Morbi sed massa ac lectus ultricies condimentum. Ut vel pulvinar ex. Suspendisse vel vestibulum tortor. Aliquam erat volutpat. Nullam ultricies vulputate magna, ac vehicula mauris facilisis sit amet. Quisque viverra eget metus non blandit.</p>
+	</div>
+
+	<div class="caixa3">
+		<div class="conteudo-titulo">
+			<span class="titulo">Pôr do sol</span>
+		</div>
+	</div>
+
+	<div class="conteudo">
+		<h3>Parallax</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo urna, maximus id rhoncus vel, pulvinar nec nunc. Morbi vitae risus at nisi pulvinar congue id non turpis. Ut auctor odio ac lorem varius, non laoreet arcu vehicula. Suspendisse vestibulum tincidunt tortor at ullamcorper. Vestibulum eu auctor risus. Nulla ornare nulla tellus, ac rhoncus quam aliquet eget. Vivamus et ex lobortis, tincidunt libero quis, molestie neque. Nulla et ipsum eu nulla pretium suscipit accumsan eu ex. Maecenas sit amet felis at nisl pharetra tincidunt sed ut leo. Duis porta purus vel venenatis dictum. Duis lorem nulla, ullamcorper quis mauris a, euismod dictum augue. Cras venenatis, risus in consectetur cursus, diam elit maximus sem, non feugiat velit ante a felis. Sed gravida congue nisi ut euismod.</p>
+		<p>In commodo id orci vitae accumsan. Suspendisse consequat eros non leo placerat sagittis. Vestibulum lacinia bibendum ornare. Maecenas porta pellentesque sagittis. Phasellus cursus id libero sit amet convallis. Cras malesuada urna ex, quis faucibus dui ultricies vitae. Morbi sed massa ac lectus ultricies condimentum. Ut vel pulvinar ex. Suspendisse vel vestibulum tortor. Aliquam erat volutpat. Nullam ultricies vulputate magna, ac vehicula mauris facilisis sit amet. Quisque viverra eget metus non blandit.</p>
+	</div>
+
+	<div class="caixa4">
+		<div class="conteudo-titulo">
+			<span class="titulo">Montanhas</span>
+		</div>
+	</div>
+
+	<div class="conteudo">
+		<h3>Parallax</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo urna, maximus id rhoncus vel, pulvinar nec nunc. Morbi vitae risus at nisi pulvinar congue id non turpis. Ut auctor odio ac lorem varius, non laoreet arcu vehicula. Suspendisse vestibulum tincidunt tortor at ullamcorper. Vestibulum eu auctor risus. Nulla ornare nulla tellus, ac rhoncus quam aliquet eget. Vivamus et ex lobortis, tincidunt libero quis, molestie neque. Nulla et ipsum eu nulla pretium suscipit accumsan eu ex. Maecenas sit amet felis at nisl pharetra tincidunt sed ut leo. Duis porta purus vel venenatis dictum. Duis lorem nulla, ullamcorper quis mauris a, euismod dictum augue. Cras venenatis, risus in consectetur cursus, diam elit maximus sem, non feugiat velit ante a felis. Sed gravida congue nisi ut euismod.</p>
+		<p>In commodo id orci vitae accumsan. Suspendisse consequat eros non leo placerat sagittis. Vestibulum lacinia bibendum ornare. Maecenas porta pellentesque sagittis. Phasellus cursus id libero sit amet convallis. Cras malesuada urna ex, quis faucibus dui ultricies vitae. Morbi sed massa ac lectus ultricies condimentum. Ut vel pulvinar ex. Suspendisse vel vestibulum tortor. Aliquam erat volutpat. Nullam ultricies vulputate magna, ac vehicula mauris facilisis sit amet. Quisque viverra eget metus non blandit.</p>
+	</div>
+
+	<div class="caixa5">
+		<div class="conteudo-titulo">
+			<span class="titulo">Mar</span>
+		</div>
+	</div>
+
+	<div class="conteudo">
+		<h3>Parallax</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo urna, maximus id rhoncus vel, pulvinar nec nunc. Morbi vitae risus at nisi pulvinar congue id non turpis. Ut auctor odio ac lorem varius, non laoreet arcu vehicula. Suspendisse vestibulum tincidunt tortor at ullamcorper. Vestibulum eu auctor risus. Nulla ornare nulla tellus, ac rhoncus quam aliquet eget. Vivamus et ex lobortis, tincidunt libero quis, molestie neque. Nulla et ipsum eu nulla pretium suscipit accumsan eu ex. Maecenas sit amet felis at nisl pharetra tincidunt sed ut leo. Duis porta purus vel venenatis dictum. Duis lorem nulla, ullamcorper quis mauris a, euismod dictum augue. Cras venenatis, risus in consectetur cursus, diam elit maximus sem, non feugiat velit ante a felis. Sed gravida congue nisi ut euismod.</p>
+		<p>In commodo id orci vitae accumsan. Suspendisse consequat eros non leo placerat sagittis. Vestibulum lacinia bibendum ornare. Maecenas porta pellentesque sagittis. Phasellus cursus id libero sit amet convallis. Cras malesuada urna ex, quis faucibus dui ultricies vitae. Morbi sed massa ac lectus ultricies condimentum. Ut vel pulvinar ex. Suspendisse vel vestibulum tortor. Aliquam erat volutpat. Nullam ultricies vulputate magna, ac vehicula mauris facilisis sit amet. Quisque viverra eget metus non blandit.</p>
+	</div>
+
+	<div class="caixa6">
+		<div class="conteudo-titulo">
+			<span class="titulo">Praia</span>
+		</div>
+	</div>
+
+	<div class="conteudo">
+		<h3>Parallax</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo urna, maximus id rhoncus vel, pulvinar nec nunc. Morbi vitae risus at nisi pulvinar congue id non turpis. Ut auctor odio ac lorem varius, non laoreet arcu vehicula. Suspendisse vestibulum tincidunt tortor at ullamcorper. Vestibulum eu auctor risus. Nulla ornare nulla tellus, ac rhoncus quam aliquet eget. Vivamus et ex lobortis, tincidunt libero quis, molestie neque. Nulla et ipsum eu nulla pretium suscipit accumsan eu ex. Maecenas sit amet felis at nisl pharetra tincidunt sed ut leo. Duis porta purus vel venenatis dictum. Duis lorem nulla, ullamcorper quis mauris a, euismod dictum augue. Cras venenatis, risus in consectetur cursus, diam elit maximus sem, non feugiat velit ante a felis. Sed gravida congue nisi ut euismod.</p>
+		<p>In commodo id orci vitae accumsan. Suspendisse consequat eros non leo placerat sagittis. Vestibulum lacinia bibendum ornare. Maecenas porta pellentesque sagittis. Phasellus cursus id libero sit amet convallis. Cras malesuada urna ex, quis faucibus dui ultricies vitae. Morbi sed massa ac lectus ultricies condimentum. Ut vel pulvinar ex. Suspendisse vel vestibulum tortor. Aliquam erat volutpat. Nullam ultricies vulputate magna, ac vehicula mauris facilisis sit amet. Quisque viverra eget metus non blandit.</p>
+	</div>
+
+
+
+</body>
+</html>
